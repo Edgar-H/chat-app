@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { connect } from "react-redux";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import io from "socket.io-client";
 import queryString from "query-string";
 import { generateProfileImg } from "../helpers/generateProfileImg";
